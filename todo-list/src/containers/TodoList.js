@@ -6,7 +6,7 @@ import TodoItem from "../components";
 class TodoList extends React.Component {
     render() {
         const { todos } = this.props;
-        console.log("todos is", todos);
+        
         return (
             <ul>
                 {todos.map(({ id, content }) => (
