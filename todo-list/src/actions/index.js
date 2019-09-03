@@ -1,4 +1,4 @@
-import { todos } from "./todos";
+import { addTodo, deleteTodo } from "./todos";
 
-export { todos };
-export default todos;
+export { addTodo, deleteTodo };
+export default addTodo;
